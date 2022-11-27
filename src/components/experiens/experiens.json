@@ -1,0 +1,44 @@
+[
+  {
+    "placeTittle": "Fox Cargo LLP",
+    "placeText": "Transportation, Railway logistic",
+    "positionTittle": "Logistics specialist",
+    "positionText": "Conclusion of freight contracts. Search for wagons on required routes. Drawing up documents for the movement of wagons across the territories",
+    "workPeriod": "March 2018 — сurrently"
+  },
+  {
+    "placeTittle": "Huawei Almaty LLP",
+    "placeText": "Telecommunications Mobile communications",
+    "positionTittle": "Engineer - designer",
+    "positionText": "Kcell 4G project, design team. TSSR development",
+    "workPeriod": "March 2016 - February 2018"
+  },
+  {
+    "placeTittle": "Logycom JSC",
+    "placeText": "Telecommunications, Mobile communications",
+    "positionTittle": "Engineer-supervisor",
+    "positionText": "Launch and handover of base stations Altel 4G, organization of installation process, Development of documentation for the facilities commissioning",
+    "workPeriod": "July 2015 — January 2016"
+  },
+  {
+    "placeTittle": "Logycom JSC",
+    "placeText": "Telecommunications, Mobile communications",
+    "positionTittle": "Aktau Regional Manager",
+    "positionText": "Organization of installation, startup and commissioning of base stations 'Altel 4', Development of project documentation: SVR, SAR",
+    "workPeriod": "May 2013 — July 2015"
+  },
+  {
+    "placeTittle": "Okta Kom Solutions outsourcing company of ZTE Corporation",
+    "placeText": "Telecommunications",
+    "positionTittle": "Astana Regional Manager",
+    "positionText": "Supervising installation work according to TSSR project documentation, filling configurations and launching the site, checking eNodeB nodes functionality, troubleshooting, checking the emergency system",
+    "workPeriod": "November 2012 — March 2013"
+  },
+  {
+    "placeTittle": "Almaty Telecom",
+    "placeText": "Telecommunications",
+    "positionTittle": "Manager of Installation",
+    "positionText": "Installation works of Megaline, ID Phone, ID TV, ID Net",
+    "workPeriod": "December 2011 — September 2012"
+  }
+]

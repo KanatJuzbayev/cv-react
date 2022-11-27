@@ -10,12 +10,10 @@ interface ProjectProps {
 
 export default function Project(props: ProjectProps) {
   return (
-    <>
-      <li>
-        <a className="link" target="_blank" rel="noreferrer" href={props.project.link}>
-          {props.project.name} ({props.project.usedTechnology})
-        </a>
-      </li>
-    </>
+    <li>
+      <a className="link" target="_blank" rel="noreferrer" href={props.project.link}>
+        {props.project.name} ({props.project.usedTechnology})
+      </a>
+    </li>
   );
 }
