@@ -1,3 +1,10 @@
+:root {
+  --dark: #343233;
+  --primary: #efdab9;
+  --secondary: #ffd152;
+  --hov: #ebac00;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', Verdana, sans-serif;
@@ -5,4 +12,108 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark);
+  color: #efdab9;
+}
+
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px 70px;
+}
+
+.header__wrapper {
+  text-align: center;
+}
+
+.skills > * {
+  margin: 0 0 5px;
+}
+
+.projects-list > * {
+  margin: 0 0 5px;
+}
+
+.outer {
+  font-size: 30px;
+}
+
+.header__tittle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.content__wrapper {
+  text-align: left;
+}
+
+.footer_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 250px;
+  margin-top: 15px;
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.link {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.link:hover {
+  color: var(--hov);
+}
+
+.ico-github {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.date {
+  width: 150px;
+}
+
+.place {
+  width: 300px;
+}
+
+.position {
+  width: 350px;
+}
+
+.experiens__tittle {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experiens__text {
+  margin-top: 5px;
+}
+
+.address {
+  margin-bottom: 40px;
 }

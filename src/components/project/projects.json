@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Find songs from Spotify",
+    "link": "https://kanatjuzbayev-hooks.netlify.app/",
+    "usedTechnology": "React, React-form"
+  },
+  {
+    "name": "Fox Cargo - Company website",
+    "link": "https://foxcargo.kz/",
+    "usedTechnology": "JavaScript, Sass"
+  },
+  {
+    "name": "Calculator",
+    "link": "https://kajuz-calculator.netlify.app/",
+    "usedTechnology": "React"
+  },
+  {
+    "name": "Momentum - analogue of the application with the same name",
+    "link": "https://kanatjuzbayev-momentum.netlify.app/",
+    "usedTechnology": "JavaScript"
+  },
+  {
+    "name": "Drum-Kit",
+    "link": "https://kanatjuzbayev-drum-kit.netlify.app/",
+    "usedTechnology": "JavaScript"
+  }
+]

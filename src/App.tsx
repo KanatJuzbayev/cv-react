@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
 import icoGithub from './img/ico-github.svg';
+import Project from './components/project/Project';
+import projects from './components/project/projects.json';
 
 function App() {
   return (
@@ -15,57 +16,24 @@ function App() {
         <section>
           <h3>About Me:</h3>
           <p>
-            Hi. I am 33, live in Аlmaty. I know JavaScript, TypeScript and I&apos;m learning React.
-            Earlier I wrote a little PHP. I can use SASS and Webpack. Not much experience yet. But
-            I&apos;m determined to work on it.
+            Hi. I am 33, live in Аlmaty. I know JavaScript, TypeScript and React. Earlier I wrote a
+            little PHP. I can use Sass and Webpack. Not much experience yet. But I&apos;m determined
+            to work on it.
           </p>
-          <p>Here are examples of work done as part of training and working projects:</p>
-          <ul>
-            <li>
-              <a
-                className="link"
-                target="_blank"
-                rel="noreferrer"
-                href="https://kanatjuzbayev-hooks.netlify.app/"
-              >
-                Find songs from Spotify (React, React-form)
-              </a>
-            </li>
-            <li>
-              <a className="link" target="_blank" rel="noreferrer" href="https://foxcargo.kz/">
-                Fox Cargo - Company website (JavaScript, SASS)
-              </a>
-            </li>
-            <li>
-              <a
-                className="link"
-                target="_blank"
-                rel="noreferrer"
-                href="https://kanatjuzbayev-momentum.netlify.app/"
-              >
-                Momentum - analogue of the application with the same name (JavaScript)
-              </a>
-            </li>
-            <li>
-              <a
-                className="link"
-                target="_blank"
-                rel="noreferrer"
-                href="https://kanatjuzbayev-museum.netlify.app/"
-              >
-                Landing page of the Louvre (JavaScript, SASS)
-              </a>
-            </li>
-            <li>
-              <a
-                className="link"
-                target="_blank"
-                rel="noreferrer"
-                href="https://kanatjuzbayev-drum-kit.netlify.app/"
-              >
-                Drum-Kit (JavaScript)
-              </a>
-            </li>
+          <div className="skills">
+            <h4>Skills:</h4>
+            <p>Basic coding skills: HTML, CSS, Sass, JavaScript/TypeScript, DOM Manipulation</p>
+            <p>Framework: React</p>
+            <p>Designing skills: Figma, Color selection</p>
+            <p>Responsive web: Well-versed with media queries, Flexbox and Grid</p>
+            <p>Testing: Jest, React Testing Library</p>
+          </div>
+
+          <h4>Here are examples of work done as part of training and working projects:</h4>
+          <ul className="projects-list">
+            {projects.map((project, i) => {
+              return <Project project={project} key={i} />;
+            })}
           </ul>
 
           <p>
