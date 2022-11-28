@@ -11,7 +11,7 @@
 
 @media (max-width: 768px) {
   .wrapper {
-    padding: 15px 40px;
+    padding: 10px 40px;
   }
   .work {
     display: inline-block;
@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 425px) {
+  .work {
+    width: 300px;
+  }
   .date {
     width: 300px;
   }
