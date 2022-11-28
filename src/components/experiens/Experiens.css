@@ -9,6 +9,56 @@
   margin: 0 15px 0 0;
 }
 
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 15px 40px;
+  }
+  .work {
+    display: inline-block;
+  }
+
+  .date {
+    width: max-content;
+  }
+  .place {
+    width: max-content;
+  }
+  .position {
+    width: max-content;
+  }
+}
+
+@media (max-width: 425px) {
+  .date {
+    width: 300px;
+  }
+  .place {
+    width: 300px;
+  }
+  .position {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .work {
+    width: 250px;
+  }
+  .date {
+    width: 250px;
+  }
+  .place {
+    width: 250px;
+  }
+  .place > * {
+    width: 250px;
+    margin: 0;
+  }
+  .position {
+    width: 250px;
+  }
+}
+
 .date {
   width: 170px;
   min-width: 90px;
@@ -20,7 +70,7 @@
 }
 
 .position {
-  width: 350px;
+  max-width: 350px;
 }
 
 .work__period {
