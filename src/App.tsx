@@ -20,9 +20,8 @@ function App() {
         <section className="about-me">
           <h3>About Me:</h3>
           <p>
-            Hi. I am {new Date().getFullYear() - 1989}, live in Аlmaty. I know JavaScript,
-            TypeScript and React. Earlier I wrote a little PHP. I can use Sass and Webpack. Not much
-            experience yet. But I&apos;m determined to work on it.
+            Hi. I am {new Date().getFullYear() - 1989}, live in Аlmaty. Not much experience in
+            Frontend yet. But I&apos;m determined to work on it.
           </p>
           <div className="skills">
             <h4>Skills:</h4>
