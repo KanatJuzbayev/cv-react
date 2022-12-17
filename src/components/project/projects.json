@@ -1,5 +1,10 @@
 [
   {
+    "name": "Shopping App",
+    "link": "https://kanatjuzbayev-shopping-app.netlify.app/",
+    "usedTechnology": "React, Redux, Firebase"
+  },
+  {
     "name": "Find songs from Spotify",
     "link": "https://kanatjuzbayev-hooks.netlify.app/",
     "usedTechnology": "React, React-form"
