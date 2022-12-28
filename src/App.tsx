@@ -42,7 +42,10 @@ function App() {
           </ul>
 
           <div className="list additional_info">
-            <p>Education: Bachelor of telecommunications</p>
+            <p>
+              Education: Bachelor of telecommunications (Almaty University of Power Engineering and
+              Telecommunications)
+            </p>
             <p>English: Pre-intermediate</p>
             <p>Hobby: Marathon Run</p>
           </div>
