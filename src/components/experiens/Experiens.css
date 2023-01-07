@@ -9,6 +9,9 @@
   margin: 0 15px 0 0;
 }
 
+@media (min-width: 768px) {
+}
+
 @media (max-width: 768px) {
   .wrapper {
     padding: 10px 40px;
@@ -43,7 +46,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .work {
     width: 250px;
   }
@@ -68,7 +71,7 @@
 }
 
 .place {
-  width: 300px;
+  width: 280px;
   min-width: 170px;
 }
 
