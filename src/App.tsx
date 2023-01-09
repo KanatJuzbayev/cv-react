@@ -6,6 +6,17 @@ import Work from './components/experiens/Experiens';
 import works from './components/experiens/experiens.json';
 
 function App() {
+  function getAge(dateString) {
+    const today = new Date();
+    const birthDate = new Date(dateString);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
   return (
     <div className="App">
       <div className="wrapper header__wrapper">
@@ -20,8 +31,9 @@ function App() {
         <section className="about-me">
           <h3>About Me:</h3>
           <p>
-            Hi. I am {new Date().getFullYear() - 1989}, live in Аlmaty. Not much experience in
-            Frontend yet. But I&apos;m determined to work on it.
+            Hi. I am {getAge('1989-04-26')}, live in Аlmaty. I have experience in telecommunications
+            and railroad logistics. At the moment I want to change the field of activity and develop
+            in frontend. Not much experience in Frontend yet. But I&apos;m determined to work on it.
           </p>
           <div className="skills">
             <h4>Skills:</h4>
