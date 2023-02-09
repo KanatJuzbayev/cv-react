@@ -31,12 +31,31 @@ function App() {
         <section className="about-me">
           <h3>About Me:</h3>
           <p>
-            Hi. I am {getAge('1989-04-26')}, live in Аlmaty. I have experience in telecommunications
-            and railroad logistics. At the moment I want to change the field of activity and develop
-            in frontend. Not much experience in Frontend yet. But I&apos;m determined to work on it.
+            Hi. I am {getAge('1989-04-26')}, live in Аlmaty. I have experience as a Junior Frontend
+            Developer at Fox Cargo company. Developed adaptive corporate{' '}
+            <a href="http://foxcargo.kz/" className="link" target="_blank" rel="noreferrer">
+              website
+            </a>{' '}
+            with JS, HTML, SASS, PHP. With the following functions: Send mail, Contact us, Order
+            calculation request.
           </p>
+          <p>
+            I took JavaScript and React courses at{' '}
+            <a href="http://foxcargo.kz/" className="link" target="_blank" rel="noreferrer">
+              RS-school
+            </a>{' '}
+            (from Epam).
+          </p>
+
+          <h4>Here are examples of work done as part of training and working projects:</h4>
+          <ul className="list projects_list">
+            {projects.map((project, i) => {
+              return <Project project={project} key={i} />;
+            })}
+          </ul>
+
           <div className="skills">
-            <h4>Skills:</h4>
+            <h4 className="skills-title">Skills</h4>
             <div className="list skills_list">
               <p>Basic coding skills: HTML, CSS, Sass, JavaScript/TypeScript, DOM Manipulation</p>
               <p>Framework: React</p>
@@ -45,13 +64,6 @@ function App() {
               <p>Testing: Jest, React Testing Library</p>
             </div>
           </div>
-
-          <h4>Here are examples of work done as part of training and working projects:</h4>
-          <ul className="list projects_list">
-            {projects.map((project, i) => {
-              return <Project project={project} key={i} />;
-            })}
-          </ul>
 
           <div className="list additional_info">
             <p>

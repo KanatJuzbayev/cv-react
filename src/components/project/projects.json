@@ -1,13 +1,13 @@
 [
   {
+    "name": "Fox Cargo - Company website",
+    "link": "https://foxcargo.kz/",
+    "usedTechnology": "JavaScript, Sass, PHP. website need SSL sertificate"
+  },
+  {
     "name": "Find songs from Spotify",
     "link": "https://kajuz-spotify-search.netlify.app/",
     "usedTechnology": "React, TypeScript, Redux, React-form"
-  },
-  {
-    "name": "Fox Cargo - Company website",
-    "link": "https://foxcargo.kz/",
-    "usedTechnology": "JavaScript, Sass"
   },
   {
     "name": "Momentum - analogue of the application with the same name",
@@ -28,5 +28,10 @@
     "name": "Drum-Kit",
     "link": "https://kanatjuzbayev-drum-kit.netlify.app/",
     "usedTechnology": "JavaScript"
+  },
+  {
+    "name": "My GitHub page",
+    "link": "https://github.com/KanatJuzbayev",
+    "usedTechnology": "Public Repositories"
   }
 ]
