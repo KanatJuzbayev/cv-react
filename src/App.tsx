@@ -33,7 +33,12 @@ function App() {
           <p>
             Hi. I am {getAge('1989-04-26')}, live in Аlmaty. I have experience as a Junior Frontend
             Developer at Fox Cargo company. Developed adaptive corporate{' '}
-            <a href="http://foxcargo.kz/" className="link" target="_blank" rel="noreferrer">
+            <a
+              href="https://foxcargo.netlify.app/"
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+            >
               website
             </a>{' '}
             with JS, HTML, SASS, PHP. With the following functions: Send mail, Contact us, Order
@@ -41,7 +46,7 @@ function App() {
           </p>
           <p>
             I took JavaScript and React courses at{' '}
-            <a href="http://foxcargo.kz/" className="link" target="_blank" rel="noreferrer">
+            <a href="https://rs.school/" className="link" target="_blank" rel="noreferrer">
               RS-school
             </a>{' '}
             (from Epam).
