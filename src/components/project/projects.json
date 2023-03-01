@@ -2,12 +2,17 @@
   {
     "name": "Fox Cargo - Company website",
     "link": "https://foxcargo.netlify.app/",
-    "usedTechnology": "JavaScript, Sass, PHP. website need SSL sertificate"
+    "usedTechnology": "JavaScript, Sass, PHP"
   },
   {
     "name": "Find songs from Spotify",
     "link": "https://kajuz-spotify-search.netlify.app/",
     "usedTechnology": "React, TypeScript, Redux, React-form"
+  },
+  {
+    "name": "Softline - Company website",
+    "link": "https://kanatjuzbayev.github.io/softline/dist/",
+    "usedTechnology": "JavaScript, Sass, Webpack, Swiper"
   },
   {
     "name": "Momentum - analogue of the application with the same name",
