@@ -25,16 +25,6 @@
     "usedTechnology": "React, Redux, Firebase"
   },
   {
-    "name": "Calculator",
-    "link": "https://kajuz-calculator.netlify.app/",
-    "usedTechnology": "React"
-  },
-  {
-    "name": "Drum-Kit",
-    "link": "https://kanatjuzbayev-drum-kit.netlify.app/",
-    "usedTechnology": "JavaScript"
-  },
-  {
     "name": "My GitHub page",
     "link": "https://github.com/KanatJuzbayev",
     "usedTechnology": "Public Repositories"

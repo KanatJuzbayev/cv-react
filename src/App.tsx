@@ -31,28 +31,13 @@ function App() {
         <section className="about-me">
           <h3>About Me:</h3>
           <p>
-            Hi. I am {getAge('1989-04-26')}, live in Аlmaty. I have experience as a Junior Frontend
-            Developer at Fox Cargo company. Developed adaptive corporate{' '}
-            <a
-              href="https://foxcargo.netlify.app/"
-              className="link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              website
-            </a>{' '}
-            with JS, HTML, SASS, PHP. With the following functions: Send mail, Contact us, Order
-            calculation request.
-          </p>
-          <p>
-            I took JavaScript and React courses at{' '}
-            <a href="https://rs.school/" className="link" target="_blank" rel="noreferrer">
-              RS-school
-            </a>{' '}
-            (from Epam).
+            Skilled Frontend Developer with experience developing adaptive corporate websites using
+            JS, HTML, SASS, and PHP. Proficient in React and well-versed in media queries, Flexbox
+            and Grid for responsive web design. Completed courses in JavaScript and React from
+            RS-school (from Epam) and seeking to enhance coding skills and knowledge
           </p>
 
-          <h4>Here are examples of work done as part of training and working projects:</h4>
+          <h4>Here are examples of the work done:</h4>
           <ul className="list projects_list">
             {projects.map((project, i) => {
               return <Project project={project} key={i} />;
@@ -62,21 +47,41 @@ function App() {
           <div className="skills">
             <h4 className="skills-title">Skills</h4>
             <div className="list skills_list">
-              <p>Basic coding skills: HTML, CSS, Sass, JavaScript/TypeScript, DOM Manipulation</p>
-              <p>Framework: React</p>
-              <p>Designing skills: Figma, Color selection</p>
-              <p>Responsive web: Well-versed with media queries, Flexbox and Grid</p>
-              <p>Testing: Jest, React Testing Library</p>
+              <p>
+                <span className="summary">Basic coding skills:</span> HTML, CSS, Sass,
+                JavaScript/TypeScript, DOM Manipulation
+              </p>
+              <span className="summary"></span>
+              <p>
+                <span className="summary">Framework:</span> React
+              </p>
+              <p>
+                <span className="summary">Designing skills:</span> Figma, Color selection
+              </p>
+              <p>
+                <span className="summary">Responsive web:</span> Well-versed with media queries,
+                Flexbox and Grid
+              </p>
+              <p>
+                <span className="summary">Testing:</span> Jest, React Testing Library
+              </p>
             </div>
           </div>
 
           <div className="list additional_info">
             <p>
-              Education: Bachelor of telecommunications (Almaty University of Power Engineering and
-              Telecommunications)
+              <span className="summary">Education:</span> Bachelor of telecommunications (Almaty
+              University of Power Engineering and Telecommunications)
             </p>
-            <p>English: Pre-intermediate</p>
-            <p>Hobby: Marathon Run</p>
+            <p>
+              <span className="summary">English:</span> Pre-intermediate
+            </p>
+            <p>
+              <span className="summary">Hobby:</span> Marathon Run
+            </p>
+            <p>
+              <span className="summary">Location:</span> Almaty, Kazakhstan
+            </p>
           </div>
         </section>
 
