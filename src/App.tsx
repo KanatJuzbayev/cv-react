@@ -3,7 +3,7 @@ import icoGithub from './img/ico-github.svg';
 import Project from './components/project/Project';
 import projects from './components/project/projects.json';
 import Work from './components/experiens/Experiens';
-import works from './components/experiens/experiens.json';
+import works from './components/experiens/experience.json';
 
 function App() {
   function getAge(dateString) {
@@ -86,7 +86,7 @@ function App() {
         </section>
 
         <section className="experiens">
-          <h3>Work experiens:</h3>
+          <h3>Work experience:</h3>
           {works.map((work, i) => {
             return <Work work={work} key={i} />;
           })}
