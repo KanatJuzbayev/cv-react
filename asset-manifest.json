@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cv-react/build/static/css/main.4223acbc.css",
-    "main.js": "/cv-react/build/static/js/main.f405991e.js",
-    "static/media/me.jpg": "/cv-react/build/static/media/me.086c2f083070f72ad37c.jpg",
-    "static/media/ico-github.svg": "/cv-react/build/static/media/ico-github.6bbb0f6b002891e52d10425d2a46c50a.svg",
-    "index.html": "/cv-react/build/index.html",
-    "main.4223acbc.css.map": "/cv-react/build/static/css/main.4223acbc.css.map",
-    "main.f405991e.js.map": "/cv-react/build/static/js/main.f405991e.js.map"
+    "main.css": "/cv-react/static/css/main.4223acbc.css",
+    "main.js": "/cv-react/static/js/main.a48ee3d2.js",
+    "static/media/me.jpg": "/cv-react/static/media/me.086c2f083070f72ad37c.jpg",
+    "static/media/ico-github.svg": "/cv-react/static/media/ico-github.6bbb0f6b002891e52d10425d2a46c50a.svg",
+    "index.html": "/cv-react/index.html",
+    "main.4223acbc.css.map": "/cv-react/static/css/main.4223acbc.css.map",
+    "main.a48ee3d2.js.map": "/cv-react/static/js/main.a48ee3d2.js.map"
   },
   "entrypoints": [
     "static/css/main.4223acbc.css",
-    "static/js/main.f405991e.js"
+    "static/js/main.a48ee3d2.js"
   ]
 }
