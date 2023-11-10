@@ -25,7 +25,6 @@ function App() {
 
       <div className="wrapper content__wrapper">
         <img className="avatar" src={require('img/me.jpg')} alt="My img, I'm cute ;))" />
-
         <h1 className="outer">Kanat Juzbayev</h1>
 
         <section className="about-me">
@@ -48,8 +47,8 @@ function App() {
             <h4 className="skills-title">Skills</h4>
             <div className="list skills_list">
               <p>
-                <span className="summary">Basic coding skills:</span> HTML, CSS, Sass,
-                JavaScript/TypeScript, DOM Manipulation
+                <span className="summary">Leila:</span> HTML, CSS, Sass, JavaScript/TypeScript, DOM
+                Manipulation
               </p>
               <span className="summary"></span>
               <p>
