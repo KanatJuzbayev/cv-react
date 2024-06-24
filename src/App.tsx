@@ -47,8 +47,8 @@ function App() {
             <h4 className="skills-title">Skills</h4>
             <div className="list skills_list">
               <p>
-                <span className="summary">Leila:</span> HTML, CSS, Sass, JavaScript/TypeScript, DOM
-                Manipulation
+                <span className="summary">Basic coding skills:</span> HTML, CSS, Sass,
+                JavaScript/TypeScript, DOM Manipulation
               </p>
               <span className="summary"></span>
               <p>
