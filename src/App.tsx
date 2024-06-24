@@ -6,21 +6,21 @@ import Work from './components/experiens/Experiens';
 import works from './components/experiens/experience.json';
 
 function App() {
-  function getAge(dateString) {
-    const today = new Date();
-    const birthDate = new Date(dateString);
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-    }
-    return age;
-  }
+  // function getAge(dateString) {
+  //   const today = new Date();
+  //   const birthDate = new Date(dateString);
+  //   let age = today.getFullYear() - birthDate.getFullYear();
+  //   const m = today.getMonth() - birthDate.getMonth();
+  //   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+  //     age--;
+  //   }
+  //   return age;
+  // }
 
   return (
     <div className="App">
       <div className="wrapper header__wrapper">
-        <p className="header__tittle">Curriculum Vitae</p>
+        <p className="header__tittle">CV</p>
       </div>
 
       <div className="wrapper content__wrapper">
