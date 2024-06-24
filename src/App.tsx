@@ -30,10 +30,10 @@ function App() {
         <section className="about-me">
           <h3>About Me:</h3>
           <p>
-            Skilled Frontend Developer with experience developing adaptive corporate websites using
-            JS, HTML, SASS, and PHP. Proficient in React and well-versed in media queries, Flexbox
-            and Grid for responsive web design. Completed courses in JavaScript and React from
-            RS-school (from Epam) and seeking to enhance coding skills and knowledge
+            Frontend Developer with experience developing adaptive corporate websites using JS,
+            HTML, SASS, and PHP. Proficient in React and well-versed in media queries, Flexbox and
+            Grid for responsive web design. Completed courses in JavaScript and React from RS-school
+            (from Epam) and seeking to enhance coding skills and knowledge
           </p>
 
           <h4>Here are examples of the work done:</h4>
@@ -76,7 +76,7 @@ function App() {
               <span className="summary">English:</span> Pre-intermediate
             </p>
             <p>
-              <span className="summary">Hobby:</span> Marathon Run
+              <span className="summary">Hobby:</span>Running
             </p>
             <p>
               <span className="summary">Location:</span> Almaty, Kazakhstan
@@ -111,7 +111,7 @@ function App() {
 
         <section className="address">
           <h3>The address:</h3>
-          <p>Kazakhstan, Almaty, Nurkent, 5/2</p>
+          <p>Kazakhstan, Almaty, Abaya street, 107</p>
         </section>
       </div>
 
