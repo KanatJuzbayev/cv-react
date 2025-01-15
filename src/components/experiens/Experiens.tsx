@@ -23,7 +23,11 @@ export default function Work(props: WorkProps) {
       </div>
       <div className="position">
         <p className="work__tittle">{props.work.positionTittle}</p>
-        <p className="work__text">{props.work.positionText}</p>
+        {props.work.positionText.split('\n').map((line, index) => (
+          <p className="work__text" key={index}>
+            {line}
+          </p>
+        ))}
       </div>
     </div>
   );

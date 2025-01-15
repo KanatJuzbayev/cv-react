@@ -3,22 +3,15 @@
     "placeTittle": "Fox Cargo LLP",
     "placeText": "Transportation, Railway logistic",
     "positionTittle": "Software Developer",
-    "positionText": "Developed and maintain the corporate website, including the implementation of features such as Send Email, Contact Us and Order Calculation Request",
-    "workPeriod": "March 2022 — January 2024"
-  },
-  {
-    "placeTittle": "Space Team",
-    "placeText": "Running club",
-    "positionTittle": "Running coach",
-    "positionText": "Conducting training sessions, preparing for races. Helping runners develop skills and achieve personal goals",
-    "workPeriod": "April 2022 — April 2024"
+    "positionText": "Development and maintenance of a web application, including the creation of the user interface using React.js and TypeScript.\nDesign and implementation of a REST API to enable interaction between users using Node.js and Express.js.\nSetting up and managing a secure authentication and authorization system using JSON Web Token (JWT).\nImplementing a mechanism for sending and processing requests.\nDevelopment and integration of a data submission form using React TypeScript and Axios for efficient data transfer.\nDeployment of the application, ensuring the stability and availability of the web service.\nConducting testing of components and APIs using Jest and React Testing Library to ensure high code quality.\nManaging the MongoDB database, including schema creation and performing data operations to store information.",
+    "workPeriod": "December 2023 - till now"
   },
   {
     "placeTittle": "Fox Cargo LLP",
     "placeText": "Transportation, Railway logistic",
     "positionTittle": "Logistic specialist",
     "positionText": "Conclusion of a contract for the transportation of goods, preparation of documents for transportation and relocation of cars. Search for railcars for shippers and search for shippers themselves",
-    "workPeriod": "April 2018 — February 2022"
+    "workPeriod": "April 2018 — November 2023"
   },
   {
     "placeTittle": "Huawei Almaty LLP",

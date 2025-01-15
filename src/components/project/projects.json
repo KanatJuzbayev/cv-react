@@ -1,5 +1,10 @@
 [
   {
+    "name": "GTC - runnning club website",
+    "link": "https://gussarovtc.onrender.com/",
+    "usedTechnology": "React, TypeScript, Express, Node.js, Nodemailer"
+  },
+  {
     "name": "Fox Cargo - Company website",
     "link": "https://foxcargo.netlify.app/",
     "usedTechnology": "JavaScript, Sass, PHP"
@@ -18,11 +23,6 @@
     "name": "Momentum - analogue of the application with the same name",
     "link": "https://kanatjuzbayev-momentum.netlify.app/",
     "usedTechnology": "JavaScript"
-  },
-  {
-    "name": "Shopping App",
-    "link": "https://kajuz-shopping.netlify.app/",
-    "usedTechnology": "React, Redux, Firebase"
   },
   {
     "name": "My GitHub page",
