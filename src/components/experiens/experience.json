@@ -1,51 +1,23 @@
 [
   {
-    "placeTittle": "Fox Cargo LLP",
+    "placeTittle": "TTT Transport & Logistic LLP",
     "placeText": "Transportation, Railway logistic",
     "positionTittle": "Software Developer",
-    "positionText": "Development and maintenance of a web application, including the creation of the user interface using React.js and TypeScript.\nDesign and implementation of a REST API to enable interaction between users using Node.js and Express.js.\nSetting up and managing a secure authentication and authorization system using JSON Web Token (JWT).\nImplementing a mechanism for sending and processing requests.\nDevelopment and integration of a data submission form using React TypeScript and Axios for efficient data transfer.\nDeployment of the application, ensuring the stability and availability of the web service.\nConducting testing of components and APIs using Jest and React Testing Library to ensure high code quality.\nManaging the MongoDB database, including schema creation and performing data operations to store information.",
+    "positionText": "- Develop and maintain web applications using React.js and TypeScript.\n- Build REST APIs with Node.js and Express.js.\n- Implement secure authentication systems using JWT.\n- Design and deploy interactive forms for data management.\n- Test components and APIs using Jest and React Testing Library.\n- Manage MongoDB databases (schemas and CRUD operations).\n- Deploy applications and ensure their stable performance.",
     "workPeriod": "December 2023 - till now"
   },
   {
     "placeTittle": "Fox Cargo LLP",
     "placeText": "Transportation, Railway logistic",
     "positionTittle": "Logistic specialist",
-    "positionText": "Conclusion of a contract for the transportation of goods, preparation of documents for transportation and relocation of cars. Search for railcars for shippers and search for shippers themselves",
+    "positionText": "- Managed freight transportation contracts and logistics documentation.\n- Coordinated the search for railcars and freight shippers.",
     "workPeriod": "April 2018 — November 2023"
   },
   {
-    "placeTittle": "Huawei Almaty LLP",
-    "placeText": "Telecommunications Mobile communications",
+    "placeTittle": "Almaty Telecom, Logycom, Huawei",
+    "placeText": "Telecommunications, Mobile communications",
     "positionTittle": "Engineer - designer",
-    "positionText": "Kcell 4G project, design team. TSSR development",
-    "workPeriod": "March 2016 - February 2018"
-  },
-  {
-    "placeTittle": "Logycom JSC",
-    "placeText": "Telecommunications, Mobile communications",
-    "positionTittle": "Engineer-supervisor",
-    "positionText": "Launch and handover of base stations Altel 4G, organization of installation process, Development of documentation for the facilities commissioning",
-    "workPeriod": "July 2015 — January 2016"
-  },
-  {
-    "placeTittle": "Logycom JSC",
-    "placeText": "Telecommunications, Mobile communications",
-    "positionTittle": "Aktau Regional Manager",
-    "positionText": "Organization of installation, startup and commissioning of base stations 'Altel 4', Development of project documentation: SVR, SAR",
-    "workPeriod": "May 2013 — July 2015"
-  },
-  {
-    "placeTittle": "Okta Kom Solutions outsourcing company of ZTE Corporation",
-    "placeText": "Telecommunications",
-    "positionTittle": "Astana Regional Manager",
-    "positionText": "Supervising installation work according to TSSR project documentation, filling configurations and launching the site, checking eNodeB nodes functionality, troubleshooting, checking the emergency system",
-    "workPeriod": "November 2012 — March 2013"
-  },
-  {
-    "placeTittle": "Almaty Telecom",
-    "placeText": "Telecommunications",
-    "positionTittle": "Manager of Installation",
-    "positionText": "Installation works of Megaline, ID Phone, ID TV, ID Net",
-    "workPeriod": "December 2011 — September 2012"
+    "positionText": "Worked as an engineer and designer in telecommunications companies (Huawei, Logycom, Almaty Telecom) from 2011 to 2018.\nExperience included designing communication infrastructure projects, overseeing equipment installation, and system launch.",
+    "workPeriod": "December 2011 - February 2018"
   }
 ]

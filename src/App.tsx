@@ -24,7 +24,7 @@ PositionText.propTypes = {
 };
 
 const aboutMeText =
-  'I know HTML5, CSS3, SASS/SCSS, and work with Webpack.\nProficient in responsive design, including media queries, Flexbox, and Grid.\nHave solid experience with JavaScript, TypeScript, and React.\nHave experience with Node.js and Express.js for backend web application development.\nManage MongoDB databases, including schema design and performing CRUD operations.\nImplement secure authentication and authorization systems using JWT.\nUnderstand OOP, FP, RP, and essential design patterns.\nHave experience working with REST and use Postman for API testing.\nCan develop functional data submission forms using React and Axios.\nWrite unit and integration tests using Jest and React Testing Library.\nWork with Git.\nSkilled in Figma, with the ability to work with color palettes and create well-thought-out designs.\nDeploy applications to platforms like Render.com and Netlify.\nReady to work in a team.';
+  'I am a frontend developer with a strong passion for technology and creating user-friendly, beautiful web applications. \nAfter a successful career in telecommunications, I decided to focus on programming because it allows me to unlock my potential and make a meaningful impact on people’s lives. \n Motivation:\n I’m inspired by the opportunity to create something new and valuable for others. \nWeb development gives me the ability to turn ideas into reality';
 
 function App() {
   return (
